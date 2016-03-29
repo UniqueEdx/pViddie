@@ -1,0 +1,83 @@
+div#nav {
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0,0,0,0.3); 
+    margin: 0 auto;
+}
+.logo {
+    width: 190px;
+    height: 45px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+
+div#sidebar {
+	line-height:30px;
+    background-color: rgba(0,0,0,0.3);
+    height:3900px;
+    width:100px;
+    float:left;
+    padding:10px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+div#mastermind_content {
+    background-color: #0066CC;
+    width: 100%;
+    height: 900px;
+    background-image: url('images/contrail2.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+section.becomeMM {
+	padding: 10px;
+	text-align: justify;
+}
+footer {
+    border-top: 1px solid #E8E8E8;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    z-index: 10;
+    background: #FFF;
+    padding: 40px 0 0;
+    color: #9E9EA6;
+}
+footer.footer {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), transparent), url("../images/bg_fuzzy_jumper.png");
+}
+footer section {
+    clear: both;
+    box-sizing: border-box;
+    max-width: 1014px;
+    padding: 0 1.5rem!important;
+    margin: 0 auto;
+}
+footer section .grid {
+    width: 100%;
+}
+footer section .grid:after, footer section .grid:before {
+    content: " ";
+    font-size: 0;
+    display: table;
+}
+footer .col1 {
+    display: block;
+    float: left;
+    margin: 0 0 2%;
+    padding-right: 2%;
+    font-family: sans-serif;
+    color: white;
+}
+section {
+    width: 100%;
+}
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
