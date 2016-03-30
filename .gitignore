@@ -9,12 +9,6 @@
 ## Images
 #################
 
-*.jpg
-*.jpeg
-*.png
-*.gif
-*.psd
-*.ai
 
 #################
 ## Windows detritus
@@ -37,7 +31,4 @@ $RECYCLE.BIN/
 ## Directories
 #################
 
-dev/
-cms/core/config/
-node_modules/
-git version-control g
+
